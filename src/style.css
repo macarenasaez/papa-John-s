@@ -27,7 +27,24 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+body{
+    line-height: 1;
+}
+blockquote, q{
+    quotes: none;
+}
+blockquote::before, blockquote::after,q::before,q::after{
+    content: '';
+    content: none;
+}
+table{
+    border-collapse: collapse;
+	border-spacing: 0;
+}
 
+ol, ul {
+    list-style: none;
+}
 
 a {
     text-decoration: none;
@@ -37,7 +54,7 @@ body {
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
-/*aboutus(1).html*/
+/*aboutus.html*/
 
 .header {
     width: 100%;
@@ -283,6 +300,7 @@ nav ul li a:hover{
 .equipo-slide p span {
     font-style: italic;
 }
+/*footer*/
 footer {
     width: 100%;
     background-color: #009774;
@@ -363,3 +381,67 @@ footer {
     padding: 20px 0;
 }
 /*vacantes*/
+
+.vacantesHeader {
+    width: 100%;
+    background-color: #009774;
+    padding: 50px 0;
+}
+
+.vacantesHeader h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.vacantesHeader h2{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.craiglist {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.craiglistSection {
+    max-width: 900px;
+}
+
+.craiglist-job {
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.craigjob-desc h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    color: #BB1446;
+}
+
+.craigjob-desc h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #009774;
+    margin: 25px 0;
+}
+
+
+
+
+.job-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
