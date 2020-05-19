@@ -28,24 +28,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
 a {
     text-decoration: none;
@@ -61,12 +43,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    margin: 0 50px;
+    
 }
 nav{
     width: 100%;
+
 }
-.nav ul{
+ ul{
     height: 100%;
     width: 60%;
     display: flex;
@@ -76,6 +59,8 @@ nav{
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 14px;
+	list-style: none;
+
 }
 nav ul li a {
     color: #009774;
@@ -85,3 +70,296 @@ nav ul li a {
 nav ul li a:hover{
     color: #bb1446;
 }
+.aboutus {
+    width: 100%;
+    background-color: #009774;
+    padding: 50px 0;
+}
+
+.aboutus h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aboutus h2{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.historia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 35px 0;
+}
+
+.historia-section {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.historia-desc h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #BB1446;
+    margin-bottom: 35px;
+}
+
+.historia-desc p {
+    font-size: 18px;
+    justify-content: center;
+    line-height: 20px;
+}
+
+.historia-desc p span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.historia-motto {
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    line-height: 25px !important;
+}
+
+.historia-motto span a{
+    color: #BB1446 !important;
+    text-decoration: underline;
+}
+.divider-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.divider{
+    width: 900px;
+    border: 2px solid #009774;
+
+}
+
+.valores{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.valores-section{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
+}
+.valores-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #BB1446;
+    margin-bottom: 35px;
+}
+
+.valores-desc p {
+    line-height: 20px;
+}
+
+.servicio {
+    margin-top: 25px;
+}
+
+.servicio h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #E21C21;
+    margin-bottom: 10px;
+}
+
+.servicio p span {
+    font-style: italic;
+}
+
+.excelencia {
+    margin-top: 25px;
+}
+
+.excelencia h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #009774;
+    margin-bottom: 10px;
+}
+
+.excelencia p span {
+    font-style: italic;
+}
+
+.respeto {
+    margin-top: 25px;
+}
+
+.respeto h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #8B0000;
+    margin-bottom: 10px;
+}
+
+.respeto p span {
+    font-style: italic;
+}
+
+.valores-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mision {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+    text-align: center;
+}
+
+.mision p {
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.mision p span {
+    color: #BB1446;
+    font-size: 25px;
+}
+
+.equipo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.equipo-container {
+    max-width: 900px;
+}
+
+.equipo-container h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 28px;
+    color: #BB1446;
+    margin-bottom: 35px;
+}
+
+.equipo-slide {
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+}
+
+.equipo-slide img {
+    width: 150px;
+    height: 150px;
+    margin-right: 25px;
+}
+
+.equipo-slide p span {
+    font-style: italic;
+}
+footer {
+    width: 100%;
+    background-color: #009774;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-header {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 42px;
+}
+
+.footer-section {
+    border: solid black 1px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 35px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.info:nth-child(4) {
+    margin-bottom: 0px !important;
+}
+
+.info-icon i {
+    font-size: 40px;
+    color: white;
+    margin-right: 25px;
+}
+
+.info-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    color: white;
+}
+
+.info-header h3{
+    font-size: 20px;
+}
+
+.info-header h3 a{
+    color: white;
+    text-decoration: underline;
+}
+
+.info-header h4{
+    font-size: 16px;
+}
+
+.gobackup {
+    width: 100%;
+    text-align: right;
+}
+
+.gobackup i {
+    font-size: 52px;
+    color: white;
+    padding-right: 50px;
+}
+
+.footer-copy {
+    color: white;
+    padding: 20px 0;
+}
+/*vacantes*/
