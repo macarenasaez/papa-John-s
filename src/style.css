@@ -446,3 +446,88 @@ footer {
     height: 100%;
     object-fit: cover;
 }
+
+
+
+
+@media (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+    .divider{
+        width: 85%;
+    }
+    .craiglist-job{
+        display: inline;
+    }
+    .craigjob-desc{
+        text-align: center;
+        margin: 25px 10px;
+    }
+    .job-img{
+        margin: 25px 0;
+    }
+    .historia-section{
+        display: inline;
+        width: 100%;
+    }
+    .valores-section{
+        width: 100%;
+        display: inline;
+       
+        
+    }
+    .valores-desc{
+        padding: 0 10px;
+        margin-bottom: 20px;
+
+    }
+    .divider{
+        width: 85%;
+    }
+    
+.equipo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ .contact-info{
+     padding: 0 10px;
+     margin-bottom:30px ;
+ }  
+ .footer-header{
+     font-style: 36px;
+ } 
+
+.footer-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+    width: 100%;
+    justify-items: center;
+
+}
+.footer-copy{
+    text-align: center;
+}
+.map{
+    margin-top: 30px;
+}
+.mapouter {
+    text-align: left !important;
+    width: 310px !important;
+}
+.gmap_canvas{
+    width: 320px;
+}
+.mapouter .gmap_canvas iframe {
+    width: 310px;
+    height: 170px;
+}
+
+}
+@media (max-width: 768px){
+.gobackup {
+    text-align: center;
+}
+}
